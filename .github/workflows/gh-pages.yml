@@ -23,10 +23,10 @@ jobs:
           npm install
           npm ci
           npm run build
-          ls -al /home/runner/work/vuepresstest/vuepresstest
+          ls -al /home/runner/work/vuepresstest/vuepresstest/.vuepress
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           BRANCH: gh-pages
-          FOLDER: docs/.vuepress/dist
+          FOLDER: .vuepress/dist
