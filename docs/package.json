@@ -1,0 +1,19 @@
+{
+  "name": "vuepresstest",
+  "version": "0.0.1",
+  "description": "vuepress deployment test",
+  "main": "index.js",
+  "authors": {
+    "name": "Jeffrey Long",
+    "email": "jeffrey.long@gmail.com"
+  },
+  "repository": "https://github.com/jjlong150/vuepresstest/vuepresstest",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
