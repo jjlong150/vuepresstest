@@ -20,6 +20,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           export NODE_OPTIONS=--openssl-legacy-provider
+          npm install
           npm ci
           npm run build
           ls -al /home/runner/work/ExcelToGraphviz/ExcelToGraphviz/docs/.vuepress/dist
