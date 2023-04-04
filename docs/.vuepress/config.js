@@ -32,10 +32,11 @@ module.exports = {
   themeConfig: {
     repo: "",
     editLinks: false,
-    base: "/docs/",
+    base: "/foobar/",
     docsDir: "",
-    editLinkText: "",
-    lastUpdated: false,
+    editLink: false,
+    editLinkText: "Edit this page",
+    lastUpdated: true,
     nav: [
       {
         text: "Guide",
