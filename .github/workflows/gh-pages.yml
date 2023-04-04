@@ -23,7 +23,7 @@ jobs:
           npm install
           npm ci
           npm run build
-          ls -al /home/runner/work/vuepresstest/vuepresstest/.vuepress
+          ls -al /home/runner/work/vuepresstest/vuepresstest/.vuepress/dist
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
