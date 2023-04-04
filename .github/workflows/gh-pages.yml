@@ -1,4 +1,4 @@
-name: Build and Deploy 2
+name: GitHub Pages Build and Deploy
 on:
   push:
     branches:
@@ -23,7 +23,7 @@ jobs:
           npm install
           npm ci
           npm run build
-          ls -al /home/runner/work/vuepresstest/vuepresstest/docs/.vuepress/dist
+          ls -al /home/runner/work/vuepresstest/vuepresstest
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
