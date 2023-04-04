@@ -32,7 +32,7 @@ module.exports = {
   themeConfig: {
     repo: "",
     editLinks: false,
-    base: "/foobar/",
+    base: "",
     docsDir: "",
     editLink: false,
     editLinkText: "Edit this page",
