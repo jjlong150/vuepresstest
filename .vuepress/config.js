@@ -9,7 +9,8 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
   description: description,
-
+  base: "/vuepresstest/",
+    
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
@@ -32,7 +33,6 @@ module.exports = {
   themeConfig: {
     repo: "",
     editLinks: false,
-    base: "/vuepresstest/",
     docsDir: "",
     editLink: false,
     editLinkText: "Edit this page",
