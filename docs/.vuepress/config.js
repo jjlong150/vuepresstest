@@ -1,4 +1,4 @@
-const { description } = require("../package");
+const { description } = require("../../package");
 
 module.exports = {
   /**
@@ -10,7 +10,7 @@ module.exports = {
    */
   description: description,
   base: "/vuepresstest/",
-    
+
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
