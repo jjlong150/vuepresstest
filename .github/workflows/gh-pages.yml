@@ -20,6 +20,8 @@ jobs:
       - name: Install and Build 🔧
         run: |
           export NODE_OPTIONS=--openssl-legacy-provider
+          corepack enable
+          yarn info
           npm install
           npm ci
           npm run build
