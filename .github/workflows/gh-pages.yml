@@ -20,9 +20,8 @@ jobs:
       - name: Install and Build 🔧
         run: |
           export NODE_OPTIONS=--openssl-legacy-provider
-          corepack enable
-          yarn info
           npm install
+          npm install -D @vuepress/plugin-google-analytics@next
           npm ci
           npm run build
           ls -al /home/runner/work/vuepresstest/vuepresstest/docs/.vuepress/dist
